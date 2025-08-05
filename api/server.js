@@ -161,7 +161,7 @@ app.post('/api/trips/:tripId/places', async (req, res) => {
   try {
     const { tripId } = req.params;
     const { placeId } = req.body;
-    const API_KEY = 'AIzaSyDfr7eubWiWHSMt_3DGir2Fcx4BN1NtoTg';
+    const API_KEY = 'abc';
     if (!placeId) {
       return res.status(400).json({ error: 'Place ID is required' });
     }
@@ -234,7 +234,7 @@ app.post('/api/trips/:tripId/itinerary', async (req, res) => {
   try {
     const { tripId } = req.params;
     const { placeId, date, placeData } = req.body;
-    const API_KEY = 'AIzaSyDfr7eubWiWHSMt_3DGir2Fcx4BN1NtoTg';
+    const API_KEY = 'abc';
 
     if (!date) {
       return res.status(400).json({ error: 'Date is required' });

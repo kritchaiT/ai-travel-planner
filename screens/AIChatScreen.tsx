@@ -54,7 +54,7 @@ const AIChatScreen = () => {
         },
         {
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer token`,
             "Content-Type": "application/json",
           },
         }

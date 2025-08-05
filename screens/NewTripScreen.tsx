@@ -20,7 +20,7 @@ import { RootStackParamList } from "../navigation/RootNavigator";
 import { useAuth, useUser } from "@clerk/clerk-expo";
 import axios from "axios";
 
-const GOOGLE_API_KEY = "AIzaSyDfr7eubWiWHSMt_3DGir2Fcx4BN1NtoTg";
+const GOOGLE_API_KEY = "abc";
 
 const NewTripScreen = () => {
   const [calendarVisible, setCalendarVisible] = useState(false);
